@@ -1,0 +1,54 @@
+/**
+*
+* grid.css
+* @author - Lameen
+* @date - 06/02/2023
+**/
+
+.grid-2c {
+    display: grid;
+    grid-template-columns: 581px 581px;
+    column-gap: 13px;
+}
+.grid-2c-1 {
+    display: grid;
+    grid-template-columns: 569px 569px;
+    column-gap: 20px;
+}
+.grid-2c-2 {
+    display: grid;
+    grid-template-columns: 700px 600px;
+    column-gap: 3px;
+}
+.grid-2c-3 {
+    display: grid;
+    grid-template-columns:  554px auto;
+    column-gap: 0;
+}
+.grid-2c-4 {
+    display: grid;
+    grid-template-columns:  553px 557px;
+    column-gap: 35px;
+}
+.grid-3c {
+    display: grid;
+    grid-template-columns: 378px 378px 378px;
+    grid-template-rows: 2;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+}
+.grid-3c-1 {
+    display: grid;
+    grid-template-columns: 366px auto auto;
+    grid-column-gap: 15px;
+}
+.grid-5c {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 17px;
+}
+.grid-6c {
+    display: grid; 
+    grid-template-columns: 196px 196px 196px 196px 196px 196px;
+    grid-column-gap: 0px;
+}

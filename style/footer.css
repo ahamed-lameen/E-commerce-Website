@@ -1,0 +1,85 @@
+/**
+*
+* footer.css
+* @author - Lameen
+* @date - 08/02/2023
+**/
+
+.main-footer-list, .contact-footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+.main-footer-list li {
+    margin-bottom: 20px;
+}
+.contact-footer-list li {
+    margin-bottom: 25px;
+}
+.main-footer-list li a, .contact-footer-list li a  {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+.contact-list-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-block;
+}
+.list-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 0 5px 0;
+}
+.social-icon-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icon-list li {
+    display: inline-block;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #505b5b;
+}
+.social-icon {
+    display: inline-block;
+    margin: 12px 0 0 13px;
+}
+.contact-icon {
+    margin-right: 5px;
+}
+.footer-line {
+    border: 1px solid #ececec33;
+    margin: 17px 0 40px 0;
+}
+.payment-list {
+    list-style-type: none;
+    margin: 4px 0 0 0;
+    padding: 0;
+}
+.payment-list li {
+    margin-left: 20px;
+    display: inline;
+}
+.payment-box {
+    display: flex;
+    justify-content: flex-end;
+}
+.location-detail {
+    line-height: 1.7;
+}
+.location-icon {
+    margin: 3px 5px 0 0;
+}
+.copy-right-statement {
+    color: #bfbfbf;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}

@@ -1,0 +1,435 @@
+/**
+*
+* style.css
+* @author - Lameen
+* @date - 06/02/2023
+**/
+
+.wrapper {
+    margin: 0 auto;
+    width: 1157px;
+}
+.section {
+    margin: 30px 0 30px 0;
+}
+.location-icon {
+    margin-right: 6px;
+}
+.down-icon {
+    margin-left: 3px;
+}
+.search-icon {
+    color: #239698;
+    margin: 20px 0 0 10px;
+}
+.search-container {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.nav-icon-box {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-icon-round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav-icon {
+    margin-left: 13px;
+    margin-top: 11px;
+}
+.nav-icon-container {
+    width: 50px;
+    height: 40px;
+    border-right: 1px solid #ececec;
+    display: inline-block;
+    margin: 0px 3px 0 0;
+    position: relative;
+}
+.nav-notification {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #239698;
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    top: -8px;
+    right: 10px;
+}
+.slider-subtitle {
+    color: #239698;
+    margin: 0;
+}
+.slider {
+    position: relative;
+}
+.slider-content {
+    position: absolute;
+    bottom: 100px;
+    left: 106px;
+}
+.offer {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-right: 0;
+    position: relative;
+}
+.offer-detail  {
+    position: absolute;
+    bottom: 75px;
+    left: 30px;
+}
+.offer-title {
+    margin-bottom: 10px;
+    color: #222;
+    font-weight: 300;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 3px;
+}
+.article-img {
+    display: inline-block;
+    margin: 40px auto 0 auto;
+}
+.article {
+    position: relative;
+    padding: 45px 20px 15px 20px;
+    margin: 20px 24px 0 auto;
+    border-radius: 15px;
+    background-color: #f1f1f3;
+}
+.article-detail {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.item-quantity  {
+    margin-top: 5px;
+    color: #4a5568;
+}
+.bank-offer {
+    margin: 20px 0;
+}
+.bank-left-img {
+    display: block;
+    margin: 25px 10px 10px 20px;
+}
+.about-bank {
+    background-color: #e6e6e6;
+    width: 572px;
+    padding: 10px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.bank-offer-title {
+    color: #bb0032;
+    font-weight: 700;
+    margin: 0 0 2px 20px;
+}
+.second-bank-offer-title {
+    color: #239bf0;
+}
+.bank-offer-subtitle {
+    color: #4a5568;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 0 30px 22px;
+}
+.bank-offer-valid {
+    margin: 55px 0 5px 22px;
+}
+.second-bank-offer-valid {
+    margin: 55px 0 30px 22px;
+}
+.bank-footer {
+    background-color: #bb0032;
+    width: 572px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.second-bank-footer {
+    background-color: #239bf0;
+}
+.footer-title {
+    color: #fff;
+    margin: 5px 0 0 22px;
+}
+.blog-img-box {
+    border: 1px solid #ececec;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+}
+.blog-img {
+    display: inline-block;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.blog-chip {
+    background-color: #239698;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 50px;
+    padding: 10px 10px;
+    margin: 15px 0 5px 0;
+}
+.blog-detail {
+    border: 1px solid #ececec;
+    border-top: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 20px;
+}
+.blog-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.blog-subtitle {
+    font-size: 15px;
+    font-weight: 500;
+    color: #4a5568 ;
+    margin-bottom: 20px;
+}
+.services-box {
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    background-color: #f4f0f0;
+}
+.services-img {
+    display: inline-block;
+    border-radius: 5px;
+}
+.services-detail {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #f4f0f0;
+}
+.services-title {
+    font-size: 18px;
+    font-size: 600;
+    margin:0;
+    margin-bottom: 3px;
+}
+.services-subtitle {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+.delivery-img {
+    display: inline-block;
+}
+.delivery-box {
+    position: relative;
+}
+.delivery-details-box {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    width: 400px ;
+}
+.precaution-img {
+    display: inline-block;
+}
+.tick-icon {
+    color: #6bbe66;
+    font-size: 18px;
+    margin-right: 4px;
+}
+.delivery-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.delivery-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.delivery-content {
+    margin: 0 0 10px 0 ;
+}
+.gift-box {
+    position: relative;
+    margin: 55px 0 40px 0
+}
+.gift--offer-img {
+    display: inline-block;
+}
+.gift-title {
+    position: absolute;
+    right: 400px;
+    top:20px;
+    color: #fff;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;  
+}
+.gift-content {
+    font-size: 23px;
+    font-weight: 500;
+}
+.special-img {
+    width: 568px;    
+}
+.special-offer-box {
+    position: relative;
+}
+.offer-card {
+    position: absolute;
+    top: 22px;
+    left: 28px;
+}
+.special-offer-title {
+    font-family: "Great Vibes",cursive;
+    color: #ff4f4f;
+    margin: 0 0 5px 0;
+}
+.special-offer-subtitle {
+    font-weight: 700;
+    margin: 0 0 4px 0;
+    font-size: 27px;
+    width: 331px;
+    line-height: 1.4;
+}
+.special-offer-content {
+    color: #4a5568;
+    line-height: 1.4;
+    font-weight: 400;
+    margin: 0 0 17px 0;
+    width: 264px;
+    font-size: 19px;
+}
+.special-offer-button {
+    padding: 13px 22px;
+    font-size: 15px;
+}
+.top-sell-product {
+    margin: 15px 20px 10px auto;
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    padding: 0 5px;
+    width: 206px;
+    height: 267px;
+}
+.top-product-button {
+    margin: 25px 0 0 22px;
+    color: #fff;
+    background-color: #239698;
+    font-size: 30px;
+    width: 40px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: none;
+}
+.top-product-button-1 {
+    margin: 25px 0 0 7px;
+}
+.top-sell-box {
+    width: 450px;
+    background: url("../img/bg-top.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.top-sell-img {
+    width: 278px;
+    margin: 0 auto;
+}
+.progress-border {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin: 23px 10px 5px 10px;
+}
+.progress-bar {
+    height: 10px;
+    width: 40%;
+    color: #000;
+    background-color: #239698;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.top-sell-offer-content {
+    color: #4a5568;
+}
+.offer-end {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.time-box {
+    border: 1px solid #222;
+    color: #222;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 35px 10px;
+}
+.timing-container {
+    margin: 17px  auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.time-isto {
+    margin: 30px 0 0 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.top-sell-left-icon-box {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+.top-sell-next-icon {
+    color: #222;
+    margin: 0 auto;
+    padding: 10px 12px;
+    text-align: center;
+}
+.top-sell-next-icon-box-1 {
+    margin-left: 10px;
+}
+.top-sell-next-icon-box-2 {
+    margin-right: 10px;
+}
+.top-sell-box h2 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 0 40px 0;
+    margin: 15px 0 0 0 ;
+}
+.top-sell-product-name {
+    margin: 4px 5px 0 0;
+    font-size: 19px;
+    font-weight: 500;
+    color: #222;
+}
+.top-sell-product-price {
+    margin: 4px 5px 0 0;
+    color: #239698;
+    font-size: 18px;
+    font-weight: 500;
+}
+.quantity-items {
+    color: #212529;
+    font-weight: 500;
+}

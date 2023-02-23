@@ -1,0 +1,54 @@
+/**
+*
+* layout.css
+* @author - Lameen
+* @date - 06/02/2023
+**/
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.cell-1 {
+    flex: 1;
+}
+.cell-2 {
+    flex: 2;
+}
+.cell-w40 {
+    width: 40px;
+}
+.cell-w44 {
+    width: 44px;
+}
+.cell-w100 {
+    width: 100px;
+}
+.cell-w121 {
+    width: 121px;
+}
+.cell-w137 {
+    width: 137px;
+}
+.cell-w150 {
+    width: 150px;
+}
+.cell-w250 {
+    width: 250px;
+}
+.cell-w350 {
+    width: 350px;
+}
+.cell-w362 {
+    width: 362px;
+}
+.cell-390 {
+    width: 390px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.row-fixed {
+    display: inline-flex;
+}
